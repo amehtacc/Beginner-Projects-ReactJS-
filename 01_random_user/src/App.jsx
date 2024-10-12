@@ -13,7 +13,7 @@ function App() {
           User List
         </h1>
       </div>
-      <div className="w-full bg-blue-400 h-full grid grid-cols-4 gap-6 p-10">
+      <div className="w-full bg-blue-400 h-full grid grid-cols-3 gap-10 p-10">
         <Card
           link={data[0]?.picture.large}
           name={`${data[0]?.name.first} ${data[0]?.name.last}`}
