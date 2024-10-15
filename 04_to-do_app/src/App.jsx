@@ -31,7 +31,8 @@ function App() {
 
 
       <div className='w-1/2 h-screen flex flex-col items-center gap-7 p-3'>
-        <div className='mt-20 mb-3'>
+        <div className='mt-7 mb-3 flex flex-col justify-center items-center gap-16'>
+          <h1 className='text-3xl font-bold '>Create Your To-Do List</h1>
           <AddToDo />
         </div>
 
