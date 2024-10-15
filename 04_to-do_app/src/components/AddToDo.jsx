@@ -6,7 +6,6 @@ function AddToDo() {
   const [todo, setTodo] = useState('')
   const {addToDo} = useContext(ToDoContext)
   
-  
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -15,6 +14,7 @@ function AddToDo() {
     addToDo({id: Date.now(), todoMsg: todo, completed: false})    
     setTodo("")
   }
+
   return (
     <form onSubmit={handleSubmit}>
       <div className='flex gap-2'>

@@ -6,7 +6,6 @@ import { ToDoContext } from './contexts/index'
 
 function App() {
   const {todos} = useContext(ToDoContext)
-
   
   return (
     <div className='w-full h-screen flex flex-col items-center gap-7 p-10' id='container'>

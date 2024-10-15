@@ -7,7 +7,7 @@ function ToDoList({todo}) {
   const [todoMsg, setTodoMsg] = useState(todo.todoMsg) 
   const [isEditable, setIsEditable] = useState(false)
   
-  
+
   return (
   
       <div className={`w-[37%] h-20 flex justify-center items-center gap-3 rounded-md shadow-md text-white bg-[#72ddf7] 
