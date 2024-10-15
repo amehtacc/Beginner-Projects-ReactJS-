@@ -10,7 +10,7 @@ function ToDoList({todo}) {
 
   return (
   
-      <div className={`w-[37%] h-20 flex justify-center items-center gap-3 rounded-md shadow-md text-white bg-[#72ddf7] 
+      <div className={`w-[75%] h-20 flex justify-center items-center gap-3 rounded-md shadow-md text-white bg-[#72ddf7] 
         ${todo.completed ? 'bg-[#afdef6] shadow-none transition-all' : ''}`}>
         <input 
         className='w-6 h-6 cursor-pointer' 
